@@ -39,3 +39,32 @@ src/
 ├── App.js           # Root Component
 └── index.js         # Entry Point
 ```
+
+
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/react-quiz.git
+cd react-quiz
+
+2. Install dependencies
+npm install
+
+3. Start the Mock API
+
+This project uses JSON Server to simulate a backend server.
+
+# Install json-server globally if not installed
+npm i -g json-server
+
+# Start the server
+npm run server
+
+# Or manually
+npx json-server --watch data/questions.json --port 9000
+
+4. Run the React App
+npm start
+
+
+Open your browser at:
+http://localhost:3000
